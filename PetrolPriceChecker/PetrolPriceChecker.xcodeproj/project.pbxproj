@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2089A6120A9FEB100F9AB0B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2089A6020A9FEB100F9AB0B /* LoginController.swift */; };
+		B2089A6420AA086F00F9AB0B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2089A6320AA086F00F9AB0B /* User.swift */; };
+		B2089A6720AA12D100F9AB0B /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2089A6620AA12D100F9AB0B /* UserType.swift */; };
 		B2E0C39F209F54F800A33A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0C39E209F54F800A33A8F /* AppDelegate.swift */; };
 		B2E0C3A1209F54F800A33A8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0C3A0209F54F800A33A8F /* ViewController.swift */; };
 		B2E0C3A4209F54F800A33A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E0C3A2209F54F800A33A8F /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2089A6020A9FEB100F9AB0B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B2089A6320AA086F00F9AB0B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B2089A6620AA12D100F9AB0B /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 		B2E0C39B209F54F800A33A8F /* PetrolPriceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetrolPriceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E0C39E209F54F800A33A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2E0C3A0209F54F800A33A8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2089A6220AA083D00F9AB0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2089A6320AA086F00F9AB0B /* User.swift */,
+				B2089A6620AA12D100F9AB0B /* UserType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2089A6520AA0DF600F9AB0B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		B2E0C392209F54F800A33A8F = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +119,15 @@
 		B2E0C39D209F54F800A33A8F /* PetrolPriceChecker */ = {
 			isa = PBXGroup;
 			children = (
+				B2089A6520AA0DF600F9AB0B /* Manager */,
+				B2089A6220AA083D00F9AB0B /* Models */,
 				B2E0C39E209F54F800A33A8F /* AppDelegate.swift */,
 				B2E0C3A0209F54F800A33A8F /* ViewController.swift */,
 				B2E0C3A2209F54F800A33A8F /* Main.storyboard */,
 				B2E0C3A5209F54F900A33A8F /* Assets.xcassets */,
 				B2E0C3A7209F54F900A33A8F /* LaunchScreen.storyboard */,
 				B2E0C3AA209F54F900A33A8F /* Info.plist */,
+				B2089A6020A9FEB100F9AB0B /* LoginController.swift */,
 			);
 			path = PetrolPriceChecker;
 			sourceTree = "<group>";
@@ -256,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2089A6420AA086F00F9AB0B /* User.swift in Sources */,
+				B2089A6720AA12D100F9AB0B /* UserType.swift in Sources */,
 				B2E0C3A1209F54F800A33A8F /* ViewController.swift in Sources */,
+				B2089A6120A9FEB100F9AB0B /* LoginController.swift in Sources */,
 				B2E0C39F209F54F800A33A8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
